@@ -6,8 +6,10 @@ box-sizing: border-box;}
 
 
 body { 
-background-image: url('../Imagenes/Logos-Fondos/21omxpw.jpg');
+background-image: url('../Imagenes/Logos-Fondos/blucactus-fondo-oscuro-paginas-web-1.jpg');
 font-family: 'Roboto', sans-serif;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
@@ -17,7 +19,7 @@ height: 100px;
 line-height: 3 ;
 
 
-animation: bounce 5s alternate infinite ease-in;
+animation: bounce 5s alternate 2 ease-in;
 
 }
 @keyframes bounce {
@@ -101,14 +103,21 @@ margin-left: 0;
 #Publi2 ul{
 display: flex;
 flex-direction: row;
+width: 100%;
 
 }
 
 #Publi2 li { list-style: none;
+   
     
 }
 
 
+#Publi2 li img { 
+    max-height: 180px;
+    
+    
+}
 
 
 /* Modificaciones en Responsive */
@@ -120,6 +129,7 @@ flex-direction: row;
 display:inline-block;
 position:relative;
 margin-left: 0;
+
 } 
 
 #Publi ul{
@@ -130,14 +140,14 @@ flex-direction: row;
 #Publi li { list-style: none;
 line-height: 5;
 animation: bounce2 1s alternate 1 ease-in;
-
+width: 100%;
 }
 
 #Publi li img{ 
 list-style: none;
 line-height: 1.5;
 flex-wrap:wrap;
-width:100%
+width: 120px;
 
 }
 

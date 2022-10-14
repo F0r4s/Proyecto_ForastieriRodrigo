@@ -81,7 +81,11 @@ margin-bottom: 0;}
     ul{display: flex;
         flex-direction: row;
         li{ list-style: none;
+            img{ max-height: 180px;
+            
+            }
         }
+        
     }
 } 
 
